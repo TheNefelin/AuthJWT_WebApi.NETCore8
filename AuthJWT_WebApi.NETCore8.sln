@@ -5,6 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthJWT_WebApi.NETCore8", "AuthJWT_WebApi.NETCore8\AuthJWT_WebApi.NETCore8.csproj", "{935AB627-409C-4263-82D7-C1F387736294}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlServer", "SqlServer", "{897DBC06-58E3-4A2C-A6F5-76F31FF57D77}"
+	ProjectSection(SolutionItems) = preProject
+		PruebaDB.sql = PruebaDB.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
